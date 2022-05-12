@@ -15,7 +15,7 @@
 
 ```mermaid
   graph TD;
-      FIGHT-->DARK;
+      FIGHTING-->DARK;
       BUG-->DARK;
       FAIRY-->DARK;
       DARK-->PSYCHIC;
@@ -44,22 +44,22 @@
   graph TD;
       POISON-->FAIRY;
       STEEL-->FAIRY;
-      FAIRY-->FIGHT;
+      FAIRY-->FIGHTING;
       FAIRY-->DRAGON;
       FAIRY-->DARK;
 ```
-## Fight
+## FIGHTING
 
 ```mermaid
   graph TD;
-      FLYING-->FIGHT;
-      PSYCHIC-->FIGHT;
-      FAIRY-->FIGHT;
-      FIGHT-->NORMAL;
-      FIGHT-->ICE;
-      FIGHT-->ROCK;
-      FIGHT-->DARK;
-      FIGHT-->STEEL;
+      FLYING-->FIGHTING;
+      PSYCHIC-->FIGHTING;
+      FAIRY-->FIGHTING;
+      FIGHTING-->NORMAL;
+      FIGHTING-->ICE;
+      FIGHTING-->ROCK;
+      FIGHTING-->DARK;
+      FIGHTING-->STEEL;
 ```
 ## Fire
 
@@ -81,7 +81,7 @@
       ICE-->FLYING;
       ROCK-->FLYING;
       FLYING-->GRASS;
-      FLYING-->FIGHT;
+      FLYING-->FIGHTING;
       FLYING-->BUG;
 ```
 ## Ghost
@@ -124,7 +124,7 @@
 ```mermaid
   graph TD;
       FIRE-->ICE;
-      FIGHT-->ICE;
+      FIGHTING-->ICE;
       ROCK-->ICE;
       STEEL-->ICE;
       ICE-->GRASS;
@@ -136,7 +136,7 @@
 
 ```mermaid
   graph TD;
-      FIGHT-->NORMAL;
+      FIGHTING-->NORMAL;
 ```
 ## Poison
 
@@ -154,7 +154,7 @@
       BUG-->PSYCHIC;
       GHOST-->PSYCHIC;
       DARK-->PSYCHIC;
-      PSYCHIC-->FIGHT;
+      PSYCHIC-->FIGHTING;
       PSYCHIC-->POISON;
 ```
 ## Rock
@@ -163,7 +163,7 @@
   graph TD;
       WATER-->ROCK;
       GRASS-->ROCK;
-      FIGHT-->ROCK;
+      FIGHTING-->ROCK;
       GROUND-->ROCK;
       STEEL-->ROCK;
       ROCK-->FIRE;
@@ -176,7 +176,7 @@
 ```mermaid
   graph TD;
       FIRE-->STEEL;
-      FIGHT-->STEEL;
+      FIGHTING-->STEEL;
       GROUND-->STEEL;
       STEEL-->ICE;
       STEEL-->ROCK;
