@@ -26,7 +26,6 @@
 ```mermaid
   graph TD;
       ICE-->DRAGON;
-      DRAGON-->DRAGON;
       FAIRY-->DRAGON;
       DRAGON-->DRAGON;
 ```
@@ -48,7 +47,7 @@
       FAIRY-->DRAGON;
       FAIRY-->DARK;
 ```
-## FIGHTING
+## Fighting
 
 ```mermaid
   graph TD;
