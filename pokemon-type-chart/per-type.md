@@ -87,10 +87,9 @@
 
 ```mermaid
   graph TD;
-      GHOST-->GHOST;
       DARK-->GHOST;
-      GHOST-->PSYCHIC;
       GHOST-->GHOST;
+      GHOST-->PSYCHIC;
 ```
 ## Grass
 
