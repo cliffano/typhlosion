@@ -10,6 +10,10 @@ Pokémon GO
 
 ### Team Yellow Six
 
-We are team Yellow Six!
+We are team Yellow Six on Pokémon GO!
 
 ![Yellow Six Logo](yellowsix-logo.jpg)
+
+### Type Charts
+
+[All types](pokemon-type-chart/all-types.md)
